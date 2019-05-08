@@ -1,0 +1,22 @@
+name: jd
+recipe: laravel
+config:
+  webroot: public
+services:
+  db2:
+    type: mysql
+    creds:
+      user: laravel
+      password: laravel
+      database: db2
+  node:
+    type: node
+tooling:
+    npm:
+      service: node
+    node:
+      service: node
+    phpunit:
+      service: appserver
+      description: "Run PHP Unit tests: lando phpunit"
+      cmd: /app/vendor/bin/phpunit

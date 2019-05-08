@@ -50,5 +50,6 @@ return [
         'th' => ['th', 'th_TH', false],
         'tr' => ['tr', 'tr_TR', false],
         'uk' => ['uk', 'uk-UA', false],
+        'ca' => ['ca', 'ca_ES', false],
     ],
 ];
