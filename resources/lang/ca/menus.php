@@ -62,6 +62,7 @@ return [
             'ar' => 'العربية (Arabic)',
             'zh' => '(Chinese Simplified)',
             'zh-TW' => '(Chinese Traditional)',
+            'ca' => 'Català',
             'da' => 'Danés (Danish)',
             'de' => 'Alemán (German)',
             'el' => '(Greek)',

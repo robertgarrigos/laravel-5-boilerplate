@@ -1,4 +1,4 @@
-name: jd
+name: boilerplate
 recipe: laravel
 config:
   webroot: public
